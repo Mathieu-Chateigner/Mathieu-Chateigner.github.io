@@ -1,7 +1,7 @@
 {
   "name": "Portfolio Mathieu Chateigner",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "main.js",
 
   "dependencies": {
     "three": "^0.161.0"
