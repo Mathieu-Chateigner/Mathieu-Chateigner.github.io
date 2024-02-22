@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72fb9e7d-d465-4c50-a0ef-1db98f0d1b23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "gh-pages",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/HTML/Portfolio",
     "node.js.detected.package.eslint": "true",
@@ -63,7 +62,7 @@
       <updated>1694682341509</updated>
       <workItem from="1694682342537" duration="256000" />
       <workItem from="1708294988628" duration="617000" />
-      <workItem from="1708616269204" duration="2399000" />
+      <workItem from="1708616269204" duration="2478000" />
     </task>
     <servers />
   </component>
