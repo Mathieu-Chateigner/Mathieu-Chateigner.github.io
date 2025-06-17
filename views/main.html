@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Mathieu Chateigner</title>
+  <!-- Bootstrap CSS -->
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="../assets/fontawesome/css/all.min.css" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../styles/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Background Animation -->
+<div class="bg-animation">
+  <div class="shape" id="shape1"></div>
+  <div class="shape" id="shape2"></div>
+  <div class="shape" id="shape3"></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+          <h1>Hi, I'm <span>Mathieu</span></h1>
+          <p>A passionate C# developer creating modern and elegant digital experiences.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-custom">View Projects</a>
+            <a href="#contact" class="btn btn-outline-custom">Contact Me</a>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mchateigner/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center">
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+          <img src="../assets/images/mathieu.png" alt="Hero Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects" id="projects">
+  <div class="container-fluid px-4">
+    <div class="section-title">
+      <h2 data-aos="fade-up">My Projects</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Explore a collection of my recent work that showcases my skills and passion for C# development.</p>
+    </div>
+
+    <div class="projects-container" data-aos="fade-up" data-aos-delay="400">
+      <div class="row" id="projectsRow">
+        <!-- Project 1 -->
+        <div class="project-item">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/images/working_male_1-removebg-preview.png" alt="Project 1">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#"><i class="fas fa-link"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Site</h3>
+              <p>A fully responsive e-commerce website with shopping cart functionality and payment integration.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-item">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/images/working_male_1-removebg-preview.png" alt="Project 2">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#"><i class="fas fa-link"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Travel Blog</h3>
+              <p>A personal travel blog with dynamic content loading and beautiful animations.</p>
+              <div class="project-tags">
+                <span>Vue.js</span>
+                <span>Firebase</span>
+                <span>SCSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-item">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/images/working_male_1-removebg-preview.png" alt="Project 3">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#"><i class="fas fa-link"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Weather Dashboard</h3>
+              <p>A weather application that fetches real-time data from a weather API with interactive charts.</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>Chart.js</span>
+                <span>API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-item">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/images/working_male_1-removebg-preview.png" alt="Project 4">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#"><i class="fas fa-link"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Task Manager</h3>
+              <p>A feature-rich task management application with local storage and drag-and-drop functionality.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Redux</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-item">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/images/working_male_1-removebg-preview.png" alt="Project 5">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#"><i class="fas fa-link"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Movie Database</h3>
+              <p>A movie database application with search functionality and detailed movie information.</p>
+              <div class="project-tags">
+                <span>Angular</span>
+                <span>TypeScript</span>
+                <span>API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-item">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/images/working_male_1-removebg-preview.png" alt="Project 6">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#"><i class="fas fa-link"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Fitness Tracker</h3>
+              <p>A fitness tracking application with workout plans, progress charts, and user authentication.</p>
+              <div class="project-tags">
+                <span>Next.js</span>
+                <span>Tailwind</span>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2 data-aos="fade-up">About Me</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Get to know more about me, my experience, and what I do.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
+        <div class="about-img mb-4">
+          <img src="../assets/images/working_male_1-removebg-preview.png" alt="About Me" class="aboutMeImg">
+        </div>
+      </div>
+
+      <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+        <div class="about-content">
+          <h3>Hi there! I'm a C# Developer</h3>
+          <p class="mb-4">I am a passionate C# developer with expertise in creating elegant, functional applications.
+            My goal is to build digital experiences that are not only visually appealing but also user-friendly and performant.</p>
+
+          <p class="mb-4">With several years of experience in the field, I've worked on a variety of projects, from personal blogs to enterprise-level applications.
+            I'm always eager to learn new technologies and stay updated with the latest trends in web development.</p>
+
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <h4>My Skills</h4>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle text-secondary me-2"></i> C#, C++</li>
+                <li><i class="fas fa-check-circle text-secondary me-2"></i> HTML, CSS, JavaScript</li>
+                <li><i class="fas fa-check-circle text-secondary me-2"></i> Python, Java</li>
+                <li><i class="fas fa-check-circle text-secondary me-2"></i> MySQL</li>
+                <li><i class="fas fa-check-circle text-secondary me-2"></i> Git</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h4>My Interests</h4>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-heart text-secondary me-2"></i> UX/UI Design</li>
+                <li><i class="fas fa-heart text-secondary me-2"></i> Web Accessibility</li>
+                <li><i class="fas fa-heart text-secondary me-2"></i> Performance Optimization</li>
+                <li><i class="fas fa-heart text-secondary me-2"></i> Open Source Projects</li>
+                <li><i class="fas fa-heart text-secondary me-2"></i> New Technologies</li>
+              </ul>
+            </div>
+          </div>
+
+          <h4 class="mb-3">Experience</h4>
+
+          <div class="experience-item">
+            <div class="experience-year">2024 - Present</div>
+            <h5 class="experience-title">C# Analyst Developer</h5>
+            <p class="experience-company">Interlog Solutions</p>
+            <p>Leading the front-end development team, architecting scalable solutions, and implementing best practices for web accessibility and performance.</p>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-year">2023 - 2024</div>
+            <h5 class="experience-title">Virtual Reality Software Engineer</h5>
+            <p class="experience-company">Hologame</p>
+            <p>Conception et réalisation d'un jeu vidéo de type FPS (shooter like) en réalité virtuelle en multijoueur
+              sur des casques Pico Neo 3 Pro en déplacement libre et en en embarqué. Utilisation d'Unity et de
+              Git.</p>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-year">2022 - 2023</div>
+            <h5 class="experience-title">iOS / Android - Mobile</h5>
+            <p class="experience-company">Hologame</p>
+            <p>Développement d'une application mobile d'histoire utilisant de l'UI, de la réalité augmentée, ainsi
+              qu'un système de navigation (similaire à Pokémon GO) le tout sur Unity au sein d'une équipe de 2.
+              Alternance complète en télétravail.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2 data-aos="fade-up">Get In Touch</h2>
+      <p data-aos="fade-up" data-aos-delay="200">Have a project in mind? Let's discuss how we can work together.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="contact-info-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h4>Location</h4>
+          <p>Orléans, FRANCE</p>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h4>Email</h4>
+          <a href="mailto:hello@yourname.com">mat.chateigner@gmail.com</a>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <h4>Phone</h4>
+          <a href="tel:+1234567890">+33 6 52 65 43 87</a>
+        </div>
+      </div>
+
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="500">
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+            </div>
+            <input type="text" class="form-control" placeholder="Subject" required>
+            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-custom mt-3">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="social-icons mb-4">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <p>&copy; 2025 Mathieu Chateigner. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AOS Animation JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- Custom JS -->
+<script src="../scripts/main.js"></script>
+</body>
+</html>
