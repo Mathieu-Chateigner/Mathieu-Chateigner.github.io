@@ -198,3 +198,167 @@ section { padding: 100px 0; }
   .nav-menu .nav-link { padding: 10px 0; border-bottom: 1px solid var(--border); }
   .nav-menu .nav-link:last-child { border-bottom: none; }
 }
+
+/* ── Hero ───────────────────────────────────────── */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 48px 60px;
+}
+
+.hero-inner {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-eyebrow {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 16px;
+}
+
+.hero-name {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.hero-title {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+.hero-title strong { color: var(--text); font-weight: 600; }
+
+.hero-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 420px;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+
+.hero-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; height: 36px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+.hero-social a:hover { border-color: var(--secondary); color: var(--secondary); }
+.hero-social-sep { width: 1px; height: 18px; background: rgba(255,255,255,0.08); margin: 0 4px; }
+.hero-location { font-size: 0.78rem; color: #444; }
+.hero-location i { margin-right: 5px; }
+
+/* Stack technique */
+.hero-right { display: flex; flex-direction: column; gap: 10px; }
+
+.stack-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #383e4a;
+  margin-bottom: 4px;
+}
+
+.stack-group { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.stack-tag {
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  animation: fadeSlide 0.4s ease both;
+}
+
+.tag-primary {
+  background: rgba(123, 104, 238, 0.12);
+  border: 1px solid rgba(123, 104, 238, 0.25);
+  color: #a89cf5;
+}
+.tag-secondary {
+  background: rgba(43, 224, 224, 0.08);
+  border: 1px solid rgba(43, 224, 224, 0.18);
+  color: #5fd6d6;
+}
+.tag-neutral {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+}
+
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.stack-tag:nth-child(1) { animation-delay: 0.1s; }
+.stack-tag:nth-child(2) { animation-delay: 0.2s; }
+.stack-tag:nth-child(3) { animation-delay: 0.3s; }
+.stack-tag:nth-child(4) { animation-delay: 0.4s; }
+.stack-tag:nth-child(5) { animation-delay: 0.5s; }
+
+.stack-divider { height: 1px; background: rgba(255,255,255,0.04); margin: 4px 0; }
+
+.availability-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(43, 224, 224, 0.07);
+  border: 1px solid rgba(43, 224, 224, 0.15);
+  border-radius: 100px;
+  padding: 6px 14px;
+  font-size: 0.75rem;
+  color: var(--secondary);
+  width: fit-content;
+}
+.availability-dot {
+  width: 6px; height: 6px;
+  background: var(--secondary);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+/* Hero responsive */
+@media (max-width: 992px) {
+  .hero { padding: 100px 24px 60px; }
+  .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+  .hero-name { font-size: 2.8rem; }
+}
+@media (max-width: 576px) {
+  .hero-name { font-size: 2.2rem; }
+  .hero-buttons { flex-direction: column; }
+  .btn-primary-custom, .btn-outline-custom { text-align: center; }
+}
