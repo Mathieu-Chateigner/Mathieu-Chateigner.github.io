@@ -172,6 +172,7 @@ section { padding: 100px 0; }
   padding: 0;
 }
 .nav-link:hover { color: var(--text); }
+.nav-link.active { color: var(--text); }
 
 .nav-toggler {
   display: none;
