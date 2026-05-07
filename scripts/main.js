@@ -24,3 +24,13 @@ sections.forEach(s => observer.observe(s));
 document.addEventListener('DOMContentLoaded', () => {
   AOS.init({ duration: 800, once: true, offset: 80 });
 });
+
+// Close mobile nav on link click
+document.querySelectorAll('#navMenu .nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    const menu = document.getElementById('navMenu');
+    if (menu.classList.contains('show')) {
+      bootstrap.Collapse.getInstance(menu)?.hide();
+    }
+  });
+});
