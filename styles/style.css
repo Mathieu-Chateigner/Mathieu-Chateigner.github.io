@@ -579,7 +579,7 @@ section { padding: 100px 0; }
 
 .timeline-desc {
   font-size: 0.82rem;
-  color: #4b5563;
+  color: var(--text-muted);
   line-height: 1.6;
 }
 
