@@ -1,10 +1,10 @@
 /* ── Variables ─────────────────────────────────── */
 :root {
-  --dark-bg:    #0e1217;
-  --darker-bg:  #070a0f;
-  --card-bg:    #131820;
-  --primary:    #7b68ee;
-  --secondary:  #2be0e0;
+  --dark-bg:    #060e0c;
+  --darker-bg:  #030806;
+  --card-bg:    #0a1410;
+  --primary:    #0d9488;
+  --secondary:  #10b981;
   --text:       #f2f2f2;
   --text-muted: #6b7280;
   --border:     rgba(255, 255, 255, 0.06);
