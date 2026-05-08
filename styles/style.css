@@ -303,8 +303,8 @@ section { padding: 100px 0; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(43, 224, 224, 0.07);
-  border: 1px solid rgba(43, 224, 224, 0.15);
+  background: rgba(16, 185, 129, 0.07);
+  border: 1px solid rgba(16, 185, 129, 0.15);
   border-radius: 100px;
   padding: 6px 14px;
   font-size: 0.75rem;
@@ -392,7 +392,7 @@ section { padding: 100px 0; }
   font-size: 1.2rem;
 }
 .project-icon--blue   { background: rgba(13,148,136,0.15); border: 1px solid rgba(13,148,136,0.2); }
-.project-icon--green  { background: rgba(43,224,224,0.1);   border: 1px solid rgba(43,224,224,0.15); }
+.project-icon--green  { background: rgba(16,185,129,0.1);   border: 1px solid rgba(16,185,129,0.15); }
 .project-icon--orange { background: rgba(249,115,22,0.1);   border: 1px solid rgba(249,115,22,0.15); }
 
 .project-badge {
@@ -404,7 +404,7 @@ section { padding: 100px 0; }
   border-radius: 100px;
 }
 .project-badge--pro   { background: rgba(13,148,136,0.12); color: #5eead4; border: 1px solid rgba(13,148,136,0.2); }
-.project-badge--perso { background: rgba(43,224,224,0.08);  color: #5fd6d6; border: 1px solid rgba(43,224,224,0.15); }
+.project-badge--perso { background: rgba(16,185,129,0.08);  color: #6ee7b7; border: 1px solid rgba(16,185,129,0.15); }
 
 .project-card-body { display: flex; flex-direction: column; gap: 10px; flex: 1; }
 
