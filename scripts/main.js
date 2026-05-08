@@ -38,6 +38,7 @@ document.querySelectorAll('#navMenu .nav-link').forEach(link => {
 // Particle background
 (function () {
   const canvas = document.getElementById('bg-canvas');
+  if (!canvas) return;
   const ctx = canvas.getContext('2d');
 
   const COLORS = ['52,211,153', '16,185,129', '13,148,136'];
@@ -76,6 +77,7 @@ document.querySelectorAll('#navMenu .nav-link').forEach(link => {
     lerpY += (mouseY - lerpY) * LERP;
 
     ctx.clearRect(0, 0, W, H);
+    ctx.lineWidth = 0.8;
 
     dots.forEach(d => {
       d.x += d.vx;
@@ -93,13 +95,13 @@ document.querySelectorAll('#navMenu .nav-link').forEach(link => {
       for (let j = i + 1; j < dots.length; j++) {
         const dx = rx[i] - rx[j];
         const dy = ry[i] - ry[j];
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < LINE_THRESH) {
+        const dist2 = dx * dx + dy * dy;
+        if (dist2 < LINE_THRESH * LINE_THRESH) {
+          const dist = Math.sqrt(dist2);
           ctx.beginPath();
           ctx.moveTo(rx[i], ry[i]);
           ctx.lineTo(rx[j], ry[j]);
           ctx.strokeStyle = `rgba(13,148,136,${LINE_OPACITY * (1 - dist / LINE_THRESH)})`;
-          ctx.lineWidth = 0.8;
           ctx.stroke();
         }
       }
