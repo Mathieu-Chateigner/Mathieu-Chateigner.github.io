@@ -5,22 +5,14 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{B1C2D3E4-F5A6-B7C8-D9E0-F1A2B3C4D5E6}"
 	ProjectSection(SolutionItems) = preProject
-		views\main.html = views\main.html
+		index.html = index.html
 		styles\style.css = styles\style.css
 		scripts\main.js = scripts\main.js
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dist", "Dist", "{C2D3E4F5-A6B7-C8D9-E0F1-A2B3C4D5E6F7}"
-	ProjectSection(SolutionItems) = preProject
-		dist\index.html = dist\index.html
-		dist\index.js = dist\index.js
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{D3E4F5A6-B7C8-D9E0-F1A2-B3C4D5E6F7A8}"
 	ProjectSection(SolutionItems) = preProject
-		assets\images\mathieu.png = assets\images\mathieu.png
-		assets\images\working_male 1.png = assets\images\working_male 1.png
-		assets\images\working_male_1-removebg-preview.png = assets\images\working_male_1-removebg-preview.png
+		assets\cv-mathieu-chateigner.pdf = assets\cv-mathieu-chateigner.pdf
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{E4F5A6B7-C8D9-E0F1-A2B3-C4D5E6F7A8B9}"
